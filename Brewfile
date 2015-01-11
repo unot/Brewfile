@@ -4,8 +4,10 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install the-unarchiver
 cask install vagrant
 cask install virtualbox
+cask install vlc
 cask install xquartz
 
 ## homebrew/versions
@@ -41,23 +43,28 @@ install jpeg
 install libcroco
 install libffi
 install liblqr
+install libmms
 install libpng
 install librsvg
 install libtiff
 install libtool
 install libwmf
 install little-cms2
+install mimms
 install netpbm
 install openexr
+install openjpeg
 install openssl
 install pango
 install pixman
 install pkg-config
+install poppler --with-little-cms2
 install python
 install readline
 install rtmpdump
 install sqlite
 install webp
+install wget
 install xz
 
 # App Store applications
