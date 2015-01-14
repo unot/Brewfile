@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install basictex
 cask install github
 cask install qlcolorcode
 cask install qlstephen
@@ -35,6 +36,7 @@ install gd
 install gdbm
 install gdk-pixbuf
 install gettext
+install ghostscript
 install git
 install glib
 install gnu-sed
@@ -46,6 +48,7 @@ install icu4c
 install ilmbase
 install imagemagick --enable-hdri --with-fftw --with-webp --with-openexr --with-liblqr --with-librsvg --with-libtiff --with-libwmf --with-jp2 --with-fontconfig --with-little-cms2
 install jasper
+install jbig2dec
 install jpeg
 install jpeginfo
 install libcroco
