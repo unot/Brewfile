@@ -4,8 +4,10 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install android-studio
 cask install basictex
 cask install github
+cask install java
 cask install qlcolorcode
 cask install qlstephen
 cask install the-unarchiver
