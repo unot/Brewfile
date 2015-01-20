@@ -5,6 +5,7 @@
 tap caskroom/cask
 install brew-cask
 cask install android-studio
+cask install appcleaner
 cask install basictex
 cask install github
 cask install qlcolorcode
@@ -14,6 +15,10 @@ cask install vagrant
 cask install virtualbox
 cask install vlc
 cask install xquartz
+
+## homebrew/science
+tap homebrew/science
+install opencv --with-jasper --with-tbb --with-ffmpeg --with-qt --with-opengl
 
 ## homebrew/versions
 tap homebrew/versions
@@ -27,12 +32,15 @@ install brew-file
 install atk
 install bash
 install bdw-gc
+install bison
 install boost
 install boot2docker
 install cairo
+install celt --with-libogg
 install cmake
 install coreutils
 install docker
+install eigen
 install faac
 install ffmpeg --with-faac --with-fontconfig --with-freetype --with-libvidstab --with-libvorbis --with-libvpx --with-openjpeg --with-rtmpdump --with-x265 --with-schroedinger --with-speex --with-theora
 install fftw
@@ -48,6 +56,7 @@ install glib
 install gnu-sed
 install gobject-introspection
 install graphviz --with-app --with-freetype --with-librsvg
+install gstreamer
 install gtk+
 install harfbuzz
 install icu4c
@@ -59,6 +68,7 @@ install jpeg
 install jpeginfo
 install lame
 install libcroco
+install libdc1394
 install libffi
 install liblqr
 install libmms
@@ -85,12 +95,16 @@ install pixman
 install pkg-config
 install poppler --with-little-cms2
 install python
+install qt
 install readline
 install rtmpdump
 install schroedinger
+install sdl
+install shtool
 install source-highlight
 install speex
 install sqlite
+install tbb
 install texi2html
 install theora
 install w3m
