@@ -23,7 +23,7 @@ install numpy
 
 ## homebrew/science
 tap homebrew/science
-install opencv --with-jasper --with-tbb --with-ffmpeg --with-qt --with-opengl --with-jasper --with-tbb --with-ffmpeg --with-qt --with-opengl
+install opencv --devel
 
 ## homebrew/versions
 tap homebrew/versions
@@ -42,7 +42,6 @@ install boost
 install boot2docker
 install cairo
 install celt --with-libogg
-install cloog
 install cmake
 install coreutils
 install docker
@@ -52,7 +51,6 @@ install ffmpeg --with-faac --with-fontconfig --with-freetype --with-libvidstab -
 install fftw
 install fontconfig
 install freetype
-install gcc
 install gd
 install gdbm
 install gdk-pixbuf
@@ -60,7 +58,6 @@ install gettext
 install ghostscript
 install git
 install glib
-install gmp
 install gnu-sed
 install gobject-introspection
 install graphviz --with-app --with-freetype --with-librsvg
@@ -70,7 +67,6 @@ install harfbuzz
 install icu4c
 install ilmbase
 install imagemagick --enable-hdri --with-fftw --with-webp --with-openexr --with-liblqr --with-librsvg --with-libtiff --with-libwmf --with-jp2 --with-fontconfig --with-little-cms2
-install isl
 install jasper
 install jbig2dec
 install jpeg
@@ -81,7 +77,6 @@ install libdc1394
 install libffi
 install liblqr
 install libmms
-install libmpc
 install libogg
 install libpng
 install librsvg
@@ -94,7 +89,6 @@ install libvpx
 install libwmf
 install little-cms2
 install mimms
-install mpfr
 install netpbm
 install openexr
 install openjpeg
