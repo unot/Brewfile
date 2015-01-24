@@ -27,6 +27,7 @@ install opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
 
 ## homebrew/versions
 tap homebrew/versions
+install bash-completion2
 install openjpeg21
 
 ## rcmdnk/file
@@ -50,6 +51,7 @@ install eigen
 install faac
 install ffmpeg --with-faac --with-fontconfig --with-freetype --with-libvidstab --with-libvorbis --with-libvpx --with-openjpeg --with-rtmpdump --with-x265 --with-schroedinger --with-speex --with-theora
 install fftw
+install findutils
 install fontconfig
 install freetype
 install gcc
