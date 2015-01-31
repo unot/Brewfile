@@ -7,9 +7,16 @@ install brew-cask
 cask install android-studio
 cask install appcleaner
 cask install basictex
+cask install evernote
 cask install github
+cask install google-chrome
+cask install java
+cask install kobito
 cask install qlcolorcode
+cask install qlmarkdown
 cask install qlstephen
+cask install quicklook-csv
+cask install rstudio
 cask install the-unarchiver
 cask install unity
 cask install vagrant
@@ -24,6 +31,7 @@ install numpy
 ## homebrew/science
 tap homebrew/science
 install opencv --with-jasper --with-qt --with-tbb --with-ffmpeg
+install r
 
 ## homebrew/versions
 tap homebrew/versions
@@ -46,6 +54,7 @@ install celt --with-libogg
 install cloog
 install cmake
 install coreutils
+install cscope
 install docker
 install eigen
 install faac
@@ -95,6 +104,7 @@ install libvorbis
 install libvpx
 install libwmf
 install little-cms2
+install macvim
 install mimms
 install mpfr
 install netpbm
