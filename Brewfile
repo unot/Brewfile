@@ -4,6 +4,7 @@
 ## caskroom/cask
 tap caskroom/cask
 install brew-cask
+cask install adobe-air
 cask install android-studio
 cask install appcleaner
 cask install basictex
@@ -12,17 +13,23 @@ cask install github
 cask install google-chrome
 cask install java
 cask install kobito
+cask install macdown
 cask install qlcolorcode
 cask install qlmarkdown
 cask install qlstephen
 cask install quicklook-csv
 cask install rstudio
 cask install the-unarchiver
+cask install transmission
 cask install unity
 cask install vagrant
 cask install virtualbox
 cask install vlc
 cask install xquartz
+
+## homebrew/boneyard
+tap homebrew/boneyard
+install celt --with-libogg
 
 ## homebrew/python
 tap homebrew/python
@@ -44,13 +51,13 @@ install brew-file
 
 # Other Homebrew packages
 install atk
+install autoconf
 install bash
 install bdw-gc
 install bison
 install boost
 install boot2docker
 install cairo
-install celt --with-libogg
 install cloog
 install cmake
 install coreutils
@@ -69,10 +76,12 @@ install gdbm
 install gdk-pixbuf
 install gettext
 install ghostscript
+install giflib
 install git
 install glib
 install gmp
 install gnu-sed
+install gnu-tar
 install gobject-introspection
 install graphviz --with-app --with-freetype --with-librsvg
 install gstreamer
@@ -89,6 +98,7 @@ install jpeginfo
 install lame
 install libcroco
 install libdc1394
+install libevent
 install libffi
 install liblqr
 install libmms
@@ -105,6 +115,7 @@ install libvpx
 install libwmf
 install little-cms2
 install macvim
+install maven
 install mimms
 install mpfr
 install netpbm
@@ -113,23 +124,28 @@ install openjpeg
 install openssl
 install optipng
 install orc
+install pandoc
 install pango
 install pixman
 install pkg-config
 install poppler --with-little-cms2
+install pyenv
 install python
 install qt
 install readline
-install rtmpdump
+install rtmpdump --HEAD
 install schroedinger
 install sdl
+install shellcheck
 install shtool
 install source-highlight
 install speex
 install sqlite
+install swftools --with-giflib --with-lame
 install tbb
 install texi2html
 install theora
+install tmux
 install w3m
 install webp
 install wget
@@ -146,4 +162,5 @@ appstore iPhoto
 appstore Keynote
 appstore Numbers
 appstore Pages
+appstore Tumblr
 appstore Xcode
